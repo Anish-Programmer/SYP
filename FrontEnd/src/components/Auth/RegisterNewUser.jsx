@@ -32,7 +32,7 @@ const RegisterNewUser = () => {
   }
     
   return (
-    <div className='flex  items-center justify-center h-screen w-screen'>
+    <div className='flex  items-center justify-center h-screen w-screen bg-black text-white'>
     <div className='border-[#1EB955] border-[2px] px-10 py-2 rounded-3xl bg-transparent'>
         <h2 
             className='font-semibold text-center text-3xl'>Registration<br />

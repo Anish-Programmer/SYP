@@ -3,18 +3,20 @@ import { Link } from 'react-router-dom'
 import Header from '../Others/Header'
 import Greeting from '../Others/Greeting'
 import CTA from '../Others/CTA'
+import RiderStatus from '../Others/RiderStatus'
+import PickUpLocation from '../Others/PickUpLocation'
+import SelectVehicle from '../Others/SelectVehicle'
 
 const CustomerDashboard = () => {
   return (
-    <div className='h-screen' >
+    <div className='h-screen ' >
       <Header  />
       <Greeting />
-      <CTA />
+      <RiderStatus />
+      <PickUpLocation />
+      <SelectVehicle />
 
-      <div className='bg-red-700 h-[100%] mt-25'>
-            Arrive
-      </div>
-      
+     
     </div>
   )
 }
