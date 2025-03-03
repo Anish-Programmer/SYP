@@ -2,8 +2,8 @@ import React from 'react'
 
 const Booking = () => {
   return (
-    <div className='flex  items-center justify-center h-screen w-screen bg-[#1F1E1E] text-[#fff]'>
-        <div className='border-[#1EB955] border-[2px] px-15 py-10 rounded-3xl bg-transparent'>
+    <div className='flex  items-center justify-center h-screen w-screen bg-[#f1f1f1] text-[#fff]'>
+        <div className='border-[#1EB955] border-[2px] px-15 py-10 rounded-3xl bg-[#fff] text-black'>
         <h2 
             className='font-semibold text-center text-3xl'>Welcome to <br />
             <span className='text-[#0071E3] text-2xl'>Booking Form</span>
@@ -55,7 +55,7 @@ const Booking = () => {
             </div>
 
             <div>
-                <button className='w-full bg-[#0071E3] hover:bg-blue-700 rounded py-3 mt-7 outline-none text-xl font-semibold'>Confirm Ride</button>
+                <button className='w-full bg-[#0071E3] hover:bg-blue-700 rounded py-3 mt-7 outline-none text-xl font-semibold text-white'>Confirm Ride</button>
             </div>
       </form>
 

@@ -17,8 +17,8 @@ const Login = () => {
   }
     
   return (
-    <div className='flex  items-center justify-center h-screen w-screen bg-[#1F1E1E] text-[#fff]'>
-    <div className='border-[#1EB955] border-[2px] px-15 py-10 rounded-3xl bg-transparent'>
+    <div className='flex  items-center justify-center h-screen w-screen bg-[#F1F1F1] text-[#fff]'>
+    <div className='border-[#1EB955] bg-[#FFFFFF] border-[2px] px-15 py-10 rounded-3xl text-black'>
         <h2 
             className='font-semibold text-center text-3xl'>Welcome to <br />
             <span className='text-[#0071E3] text-2xl'>OnlineSawari</span>
@@ -41,7 +41,7 @@ const Login = () => {
             className='bg-white text-black px-5 py-4 border-2 rounded-full placeholder:text-gray-500 outline-none text-3xl' type="password" placeholder='Password' required/>
             <br />
             <button 
-                className='text-3xl mt-3 bg-[#0071E3] outline-none py-3 px-6 rounded-full'>
+                className='text-3xl mt-3 bg-[#0071E3] outline-none py-3 px-6 text-white rounded-full'>
                 Login
             </button>
             {/* <h2>Register</h2> */}

@@ -11,16 +11,18 @@ const App = () => {
     <div className='h-screen w-screen'>
       
       {/* login and register new user page */}
-      {/* <Routes>
+      <Routes>
+        <Route path='/' element={<CustomerDashboard />}>Home page</Route>
         <Route path='/login' element={<Login />}>Login Page</Route>
         <Route path='/registerNewUser' element={<RegisterNewUser />}>Register New User page</Route>
-      </Routes> */}
+        <Route path='/book' element={<Booking />}>Booking Page</Route>
+      </Routes>
 
        {/* login and register new user page */}
 
        {/* <CustomerDashboard /> */}
 
-        <Booking />
+        {/* <Booking /> */}
        
 
 

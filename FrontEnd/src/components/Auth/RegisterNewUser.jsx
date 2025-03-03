@@ -32,10 +32,10 @@ const RegisterNewUser = () => {
   }
     
   return (
-    <div className='flex  items-center justify-center h-screen w-screen bg-black text-white'>
-    <div className='border-[#1EB955] border-[2px] px-10 py-2 rounded-3xl bg-transparent'>
+    <div className='flex  items-center justify-center h-screen w-screen bg-[#F1F1F1] text-black'>
+    <div className='border-[#1EB955] bg-[#fff] border-[2px] px-10 py-2 rounded-3xl'>
         <h2 
-            className='font-semibold text-center text-3xl'>Registration<br />
+            className='font-semibold text-center text-3xl '>Registration<br />
             <span className='text-[#0071E3] text-2xl text-center'>Form</span>
         </h2>
         <form 
@@ -92,7 +92,7 @@ const RegisterNewUser = () => {
             </div>
 
             <button 
-                className='text-3xl mt-3 bg-[#0071E3] outline-none py-3 px-6 rounded-full'>
+                className='text-3xl mt-3 bg-[#0071E3] text-white outline-none py-3 px-6 rounded-full'>
                 Register
             </button>
             <Link to='/login' className='mt-3 text-[#9147B1]'>Login</Link>
