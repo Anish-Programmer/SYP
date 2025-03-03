@@ -7,6 +7,7 @@ import RiderStatus from '../Others/RiderStatus'
 import PickUpLocation from '../Others/PickUpLocation'
 import SelectVehicle from '../Others/Car'
 import Car from '../Others/Car'
+import Footer from '../Others/Footer'
 
 const CustomerDashboard = () => {
   return (
@@ -14,8 +15,9 @@ const CustomerDashboard = () => {
       <Header  />
       <Greeting />
       <RiderStatus />
-      <PickUpLocation />
+      {/* <PickUpLocation /> */}
       <Car />
+      <Footer />
 
      
     </div>

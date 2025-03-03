@@ -1,14 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Jeep from './Jeep'
-import Van from './Van'
-import Bus from './Bus'
 
-const Car= () => {
+const Bus = () => {
   return (
     <div>
-       <div className='flex flex-col items-start justify-between bg-[#0071E3] mt-3 p-25  '>
-        <h2 className='text-4xl font-semibold mb-5 text-white'>Car</h2>
+          <div className='flex flex-col items-start justify-between bg-[#111] mt-3 p-25  '>
+        <h2 className='text-4xl font-semibold mb-5 text-white'>Bus</h2>
         {/* <div className='flex items-center justify-between w-full text-2xl font-semibold text-green-400'>
             <Link to='#'>Car</Link>
             <Link to='#'>Jeep</Link>
@@ -89,7 +85,6 @@ const Car= () => {
                 <button className='ml-7 mt-5 text-center text-xl  bg-[#0071E3] outline-none py-3 px-6 rounded-full text-[#fff]'>🚔Book Now</button>
                 </div>
               </div>
-           
         </div>
 
       
@@ -97,11 +92,8 @@ const Car= () => {
        
        
       </div>
-       <Jeep />   
-       <Van />
-       <Bus />
     </div>
   )
 }
 
-export default Car
+export default Bus

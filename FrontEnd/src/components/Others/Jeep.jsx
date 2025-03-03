@@ -3,7 +3,7 @@ import React from 'react'
 const Jeep = () => {
   return (
     <div>
-        <div className='flex flex-col items-start justify-between bg-[#0071E3] mt-3 p-25  '>
+        <div className='flex flex-col items-start justify-between bg-[#111] mt-3 p-25  '>
         <h2 className='text-4xl font-semibold mb-5 text-white'>Jeep</h2>
         {/* <div className='flex items-center justify-between w-full text-2xl font-semibold text-green-400'>
             <Link to='#'>Car</Link>

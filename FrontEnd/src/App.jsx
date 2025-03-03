@@ -5,6 +5,7 @@ import RegisterNewAccount from './components/Auth/RegisterNewUser'
 import RegisterNewUser from './components/Auth/RegisterNewUser'
 import CustomerDashboard from './components/Dashboard/CustomerDashboard'
 import Booking from './components/Pages/Booking'
+import AdminDashboard from './components/Dashboard/AdminDashboard'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 
         {/* <Booking /> */}
        
+       {/* <AdminDashboard /> */}
 
 
     </div>
