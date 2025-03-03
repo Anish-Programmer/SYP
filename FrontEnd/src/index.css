@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
-* {
+/* * {
     font-family: sans-serif, serif;
-}
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
 
-body {
+/* body {
     background-color: #111;
     color: #fff;
-}
+} */
