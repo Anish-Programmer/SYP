@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import RegisterNewAccount from './components/Auth/RegisterNewUser'
 import RegisterNewUser from './components/Auth/RegisterNewUser'
 import CustomerDashboard from './components/Dashboard/CustomerDashboard'
+import Booking from './components/Pages/Booking'
 
 const App = () => {
   return (
@@ -17,8 +18,9 @@ const App = () => {
 
        {/* login and register new user page */}
 
-       <CustomerDashboard />
+       {/* <CustomerDashboard /> */}
 
+        <Booking />
        
 
 
