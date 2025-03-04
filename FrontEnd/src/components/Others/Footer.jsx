@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -6,17 +7,22 @@ const Footer = () => {
        <div className='bg-[#f1f1f1] mt-3 py-55 px-25 border-none rounded'>
          <div className=' flex items-center justify-between p-5'>
             <h2>🚗 <span className='text-3xl font-semibold text-[#0071E3]'>Online Sawari</span></h2>
-            <label className='text-2xl font-medium'>Languagee: 
+            <label className='text-xl font-medium'>Language: 
               <select name="language" id="" className='ml-5 bg-white text-black px-7 py-2 border-2 rounded-full placeholder:text-gray-500 outline-none text-xl'>
                   <option value="English">English</option>
                   <option value="Nepali">Nepali</option>
               </select>
             </label>
-            <h2 className='text-2xl font-medium'><i class="ri-phone-fill"></i> 24/7 Support</h2>
+            <h2 className='text-xl font-medium'><i class="ri-phone-fill"></i> 24/7 Support</h2>
           </div>
 
-          <div className='  flex items-center justify-between p-5 mt-7 text-[#E24B95] text-2xl font-medium'>
-            <h2>Home</h2>
+          <div className='  flex items-center justify-between p-5 mt-7 text-[#E24B95] text-sm font-medium'>
+            <Link
+                to='/customerDashboard'
+                className='block w-fit'
+            >
+            <h2 className='cursor-pointer'>Home</h2>
+            </Link>
             <h2>Ride history</h2>
             <h2>Payments</h2>
             <h2>Help Center</h2>

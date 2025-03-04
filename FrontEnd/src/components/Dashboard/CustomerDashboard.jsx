@@ -13,7 +13,8 @@ const CustomerDashboard = () => {
   return (
     <div className='h-screen ' >
       <Header  />
-      <Greeting />
+      <Greeting user={"Customer"} />
+      <CTA /> 
       <RiderStatus />
       {/* <PickUpLocation /> */}
       <Car />

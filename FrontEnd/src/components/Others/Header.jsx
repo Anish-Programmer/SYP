@@ -7,10 +7,15 @@ const Header = () => {
        <div className='flex items-center justify-between py-5 px-25 '>
           <div><h2 className='text-4xl font-bold text-[#0071E3]'>🚗 Online Sawari</h2></div>
           <div className='flex items-center justify-between gap-12 text-xl '>
-            <Link to="/" className=''><i className="ri-home-2-line"></i>Home</Link>
+            <Link to="/customerDashboard" className=''><i className="ri-home-2-line"></i>Home</Link>
             <Link to="/profile" className=''><i className="ri-user-line"></i>Profile</Link>
             <Link  to="/login" className='block w-fit' ><button className='border-none bg-[#0071E3] px-5 py-3 rounded-full text-white cursor-pointer'>Login</button></Link>
-            <button className='border-none bg-red-500 px-5 py-3 rounded-full text-white '>Logout</button>
+            <Link
+              to='/login'
+              className='block w-fit'
+            >
+            <button className='border-none bg-red-500 px-5 py-3 rounded-full text-white cursor-pointer'>Logout</button>
+            </Link>
           </div>
        </div>
     </div>

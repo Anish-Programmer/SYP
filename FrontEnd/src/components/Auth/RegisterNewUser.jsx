@@ -95,7 +95,7 @@ const RegisterNewUser = () => {
                 className='text-3xl mt-3 bg-[#0071E3] text-white outline-none py-3 px-6 rounded-full'>
                 Register
             </button>
-            <Link to='/login' className='mt-3 text-[#9147B1]'>Login</Link>
+            <Link to='/' className='mt-3 text-[#9147B1]'>Login</Link>
         </form>
     </div>
       

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Booking = () => {
   return (
@@ -56,6 +57,12 @@ const Booking = () => {
 
             <div>
                 <button className='w-full bg-[#0071E3] hover:bg-blue-700 rounded py-3 mt-7 outline-none text-xl font-semibold text-white'>Confirm Ride</button>
+                <Link 
+                    to='/customerDashboard'
+                    
+                >
+                <p className='text-center mt-5 cursor-pointer '>Back</p>
+                </Link>
             </div>
       </form>
 

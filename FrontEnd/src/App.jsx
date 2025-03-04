@@ -6,6 +6,8 @@ import RegisterNewUser from './components/Auth/RegisterNewUser'
 import CustomerDashboard from './components/Dashboard/CustomerDashboard'
 import Booking from './components/Pages/Booking'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
+import ManageDriver from './components/Others/Admin/ManageDriver'
+import DriverDashboard from './components/Dashboard/DriverDashboard'
 
 const App = () => {
   return (
@@ -13,10 +15,14 @@ const App = () => {
       
       {/* login and register new user page */}
       <Routes>
-        <Route path='/' element={<CustomerDashboard />}>Home page</Route>
+        <Route path='/' element={<CustomerDashboard />}>Home Page</Route>
+        <Route path='/customerDashboard' element={<CustomerDashboard />}>Customer Dashboard</Route>
         <Route path='/login' element={<Login />}>Login Page</Route>
         <Route path='/registerNewUser' element={<RegisterNewUser />}>Register New User page</Route>
         <Route path='/book' element={<Booking />}>Booking Page</Route>
+        <Route path='/adminDashboard' element={<AdminDashboard />}>Admin Dashboard</Route>
+        <Route path='/adminManageDriver' element={<ManageDriver />}>Manage Driver</Route>
+        <Route path='/driverDashboard' element={<DriverDashboard />}>Driver Dashboard</Route>
       </Routes>
 
        {/* login and register new user page */}
@@ -26,6 +32,9 @@ const App = () => {
         {/* <Booking /> */}
        
        {/* <AdminDashboard /> */}
+       
+
+       {/* <ManageDriver /> */}
 
 
     </div>

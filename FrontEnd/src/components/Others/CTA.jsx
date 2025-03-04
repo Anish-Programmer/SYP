@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const CTA = () => {
   return (
     <div>
-        <div className='flex bg-[#F5F5F7] items-center justify-center gap-15 p-10'>
+        <div className='flex bg-[#F5F5F7] items-center justify-center gap-15 p-3'>
         <Link 
           to = '/book'
           className='block w-fit'
